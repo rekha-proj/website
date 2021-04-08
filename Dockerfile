@@ -1,4 +1,2 @@
-FROM rekha07/apache2
-ADD . /var/www/html/
-
-
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
